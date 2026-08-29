@@ -1,0 +1,25 @@
+name: TomOneMace
+version: '1.0.0'
+
+main: site.thomasts.TomOneMace.TomOneMace
+api-version: '26.2'
+load: POSTWORLD
+
+author: Thomakosxd
+website: https://www.thomasts.site
+
+commands:
+  tomonemace:
+    description: Main Plugin Command.
+    permission: tomonemace.admin
+    permission-message: You do not have permission to use this command.
+    aliases: [tom]
+
+permissions:
+  tomonemace.admin:
+    default: op
+    children:
+      tomonemace.craft: true
+  tomonemace.craft:
+    default: false
+

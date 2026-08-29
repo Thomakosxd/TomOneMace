@@ -1,0 +1,33 @@
+# The UUID of the current One Mace owner.
+# Do not modify this manually unless you know what you are doing (use /tom setowner instead).
+mace_owner: "none"
+
+# Set to true to keep the owner's identity secret when they claim the Mace.
+# Set to false to broadcast the owner's name to the entire server.
+hide_owner: true
+
+# Enable or disable the tracking hunt when the Mace is claimed.
+mace_hunting: true
+
+# Duration of the hunt in minutes.
+hunt_time: 60
+
+# Give the owner a glowing effect during the hunt so they can be tracked.
+glow_effect: true
+
+# Show a live countdown BossBar to all online players during an active hunt.
+boss_bar: true
+
+# Allow other players to steal the Mace if the owner dies or drops it.
+stealable: true
+
+# Broadcast a server-wide announcement when the Mace gets stolen.
+steal_announcement: true
+
+# Allow players to store the One Mace safely inside an Ender Chest.
+# Set to false to block players from hiding it in Ender Chests.
+enderchest_store: false
+
+# Allow players to store the One Mace safely inside a Shulker Box.
+# Set to false to block players from hiding it in Shulker Boxes.
+shulkerbox_store: false
